@@ -1,6 +1,6 @@
 let messages = document.getElementById("messages");
 let my_msg = document.getElementById("my_msg");
-// let nickName = prompt("Enter your name : ");
+let nickName = prompt("Enter your name : ");
 mywebSocket = new WebSocket("ws://localhost:8000");
 
 mywebSocket.onopen=function () {
